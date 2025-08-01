@@ -24,7 +24,7 @@
     padding:20px;
     border-radius: 8px;
     background-color:black ;
-    box-shadow: 2px 2px 8px #232323;
+    box-shadow: 4px 4px 8px #232323;
     color:white;
     font-size:20px;
     cursor:pointer;
@@ -48,7 +48,7 @@
     border:1px solid black;
     margin:auto;
 }
-@media(min-width:360px) and (max-width:750px){
+@media(min-width:360px) and (max-width:600px){
    button{
       margin:5px;
       padding:10px;
@@ -58,15 +58,15 @@
    }
    h3{
 
-      font-size:20px ;
-      margin:10px;
+      font-size:14px ;
+      margin:auto;
    }
    .box{
-      height:350px;
-      width:370px;
+      height:200px;
+      width:350px;
    }
    #result{
-      height:150px;
-      width:250px;
+      height:70px;
+      width:200px;
    }
  }
